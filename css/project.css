@@ -1,0 +1,28 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+    padding: 100px 50px;
+}
+
+.project-img {
+    box-shadow: 10px 5px 5px lightgray;
+    width: 100%;
+    display: inline-block;
+}
+.project-tittle {
+    font-weight: 500;
+    font-family: Roboto Mono;
+}
+.project-text {
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: 400;
+}
+.project-undertext {
+    font-family: Roboto Mono;
+    font-weight: 300;
+    font-size: small;
+}

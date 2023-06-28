@@ -1,0 +1,78 @@
+
+            
+            .portfolio-img {
+                width: 100%;
+                object-fit: contain;
+                object-position: right;
+                border-radius: 2px;
+                display: block;            
+            }
+            
+            .portfolio-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding-top: 100px;
+                column-gap: 70px;
+                row-gap: 100px;
+                text-decoration: underline;
+                font-family: 'Roboto Mono', monospace;
+            }
+            @media (max-width: 828px) {
+                .portfolio-grid {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            .portfolio-preview {
+                width: 100%;
+                vertical-align: top;
+                margin: 5px;
+
+            }
+            .portfolio-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .portfolio-box-container {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                box-shadow: 10px 5px 5px lightgrey;
+            }
+            .portfolio-box-container .portfolio-img {
+                width: 100%;
+                transition: all linear 0.7s;
+            }
+            .portfolio-box-container .portfolio-img-hover {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+
+                opacity: 0;
+            }
+            .portfolio-box-container:hover .portfolio-img{
+                opacity: 0;
+            }
+            .portfolio-box-container:hover .portfolio-img-hover {
+                opacity: 1;
+            }
+
+            .portfolio-info-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            .channel-info {
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+                width: 200px;
+
+            }
+            .one {
+                margin-top: 0px;
+                font-weight: 500;
+
+
+            }
+        

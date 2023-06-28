@@ -1,0 +1,113 @@
+
+.header {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 100;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 100px;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    
+}
+.navigation div {
+    justify-content: space-between;
+    margin: 20px;
+}
+.navigation div:hover {
+    text-decoration: underline;
+}
+.navigationButton {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title-img {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    flex: 1;
+    margin-right: 20px;
+    max-width: 500px;
+
+}
+
+.button-home {
+    flex: 1;
+    height: 150px;
+    width: 420px;
+    background-color: transparent;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.button-home .img-home {
+    height: 150px;
+}
+.button-home .img-home-tip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.button-home:hover .img-home-tip {
+    
+    opacity: 0.5;
+}
+
+.navigation-social {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 150px;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.navigation-social div {
+    position: relative;
+}
+.navigation-social div div {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -25px;
+    right: -10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.navigation-social div:hover div {
+    opacity: 0.5;
+}
+.navigation-social img {
+    height: 40px;
+}

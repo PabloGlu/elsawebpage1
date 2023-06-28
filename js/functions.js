@@ -3,7 +3,7 @@ document.getElementById("homeButton").onclick = function () {
     };
 
 document.getElementById("portfolioButton").onclick = function () {
-    window.location.hash = "portfolio.html";
+    window.location.replace("portfolio.html");
     };
 
 document.getElementById("contactButton").onclick = function () {

@@ -3,9 +3,9 @@ document.getElementById("homeButton").onclick = function () {
     };
 
 document.getElementById("portfolioButton").onclick = function () {
-    location.href = "portfolio.html";
+    location.href = "../html/portfolio.html";
     };
 
 document.getElementById("contactButton").onclick = function () {
-    location.href = "contact.html";
+    location.href = "../html/contact.html";
     };   

@@ -1,11 +1,11 @@
 document.getElementById("homeButton").onclick = function () {
-    location.href = "index.html";
+    window.location.hash = "index.html";
     };
 
 document.getElementById("portfolioButton").onclick = function () {
-    location.href = "../html/portfolio.html";
+    window.location.hash = "../html/portfolio.html";
     };
 
 document.getElementById("contactButton").onclick = function () {
-    location.href = "../html/contact.html";
+    window.location.hash = "../html/contact.html";
     };   
